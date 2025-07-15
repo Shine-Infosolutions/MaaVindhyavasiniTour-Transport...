@@ -11142,7 +11142,7 @@ h1 span {
   max-width: 100%;
 }
 .box-list-tours .card-journey-small .card-info, .box-grid-tours .card-journey-small .card-info {
-  padding: 28px 21px;
+  padding: 20px 15px;
   border-radius: 24px;
 }
 .box-list-tours .card-journey-small .card-image, .box-grid-tours .card-journey-small .card-image {
@@ -12317,7 +12317,7 @@ a.link-black:hover svg {
 
 .block-banner-tour-detail {
   position: relative;
-  padding: 0px 45px;
+  padding: 50px 45px;
 }
 
 .banner-detail-1, .banner-detail-2, .banner-detail-3, .banner-detail-4, .banner-detail-5, .banner-detail-6 {
