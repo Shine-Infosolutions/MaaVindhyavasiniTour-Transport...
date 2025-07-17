@@ -3229,7 +3229,8 @@ label {
 .card-journey-small .card-info .card-program .endtime {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content:center;
+  padding-top: 20px;
 }
 .card-journey-small .card-info .card-program .endtime .card-price {
   display: flex;
@@ -3312,9 +3313,10 @@ label {
   line-height: 326px;
 }
 .card-journey-small.card-grid-car .card-image img {
-  max-width: 100%;
-  height: auto;
-  min-width: auto;
+  width: 100%;
+ height: -webkit-fill-available;
+object-fit: cover;
+  
   margin: auto;
   display: inline-block;
   vertical-align: middle;
@@ -12313,6 +12315,8 @@ a.link-black:hover svg {
 
 .block-banner-car {
   background-image: url(../imgs/page/car/banner-car.png);
+height: 400px;
+
 }
 
 .block-banner-tour-detail {
@@ -12468,6 +12472,7 @@ a.link-black:hover svg {
   padding: 0px !important;
   border: 0px !important;
   background-color: var(--bs-background-card);
+  color: white;
 }
 .group-collapse-expand .card.card-body p {
   font-size: 14px;
