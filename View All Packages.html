@@ -80,60 +80,56 @@ Spiritual Tour India
 
   <link href="assets/css/stylee209.css?v=1.0.0" rel="stylesheet">
 
-  <style>
-    .hover-orange:hover {
-      color: orange !important;
+    <style>
+  .hover-orange:hover {
+    color: orange !important;
+   
+  }
+  .text-md li a {
+ 
+  color:rgb(113, 109, 109);  
+}
+  .text-md li i {
+  
+  color: var(--bs-neutral-400);  
+}
+.box-socials-footer a{
+  color:white; 
 
-    }
+}
+  .devshine {
+    color: #575756;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
 
-    .text-md li a {
+  .devshine:hover {
+    color: orange;
+  }
+  .header-nav {
+  flex: 1;
+  text-align: center;
+}
 
-      color: rgb(113, 109, 109);
-    }
+.header-logo {
+  white-space: nowrap;
+}
 
-    .text-md li i {
-
-      color: var(--bs-neutral-400);
-    }
-
-    .box-socials-footer a {
-      color: white;
-
-    }
-
-    .devshine {
-      color: #575756;
-      text-decoration: none;
-      transition: color 0.3s ease;
-    }
-
-    .devshine:hover {
-      color: orange;
-    }
-
-    .header-nav {
-      flex: 1;
-      text-align: center;
-    }
-
-    .header-logo {
-      white-space: nowrap;
-    }
-  </style>
-</head>
-
-<body>
-  <div id="preloader-active">
-    <div class="preloader d-flex align-items-center justify-content-center">
-      <div class="preloader-inner position-relative">
-        <div class="text-center">
-          <div class="spinning-coin-fall"></div>
+   
+</style>
+  </head>
+  <body>
+    <div id="preloader-active">
+      <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="preloader-inner position-relative">
+          <div class="text-center">
+            <div class="spinning-coin-fall"></div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <header class="header sticky-bar">
-    <!---- <div class="top-bar"> 
+    <header class="header sticky-bar">
+     <!---- <div class="top-bar"> 
         <div class="container-fluid"> 
           <div class="text-header"> 
             <div class="text-unlock text-sm-bold">Unlock the Magic of Travel with Travila - Your Gateway to Extraordinary Experiences</div><a class="link-secondary-2" href="#">Get This Now 
@@ -143,18 +139,15 @@ Spiritual Tour India
           </div>
         </div>
       </div>-->
-    <div class="container-fluid background-body ">
-      <div class="main-header d-flex justify-content-between align-items-center">
-        <div class="header-left">
-          <div class="header-logo pe-4">
-            <h7 class="text-warning mb-0">Maa Vindhyawasi Travels </h7>
-            <!--<a class='d-flex' href='index.html'><img class="light-mode" alt="Travila" src="assets/imgs/template/logo.svg"><img class="dark-mode" alt="Travila" src="assets/imgs/template/logo-w.svg"></a>-->
-          </div>
-          <div class="header-nav  mx-auto">
-            <nav class="nav-main-menu">
-              <ul class="main-menu">
-                <li class="mega-li "><a class='active' href='index.html'>Home</a>
-                  <div class="mega-menu">
+      <div class="container-fluid background-body ">
+        <div class="main-header d-flex justify-content-between align-items-center">
+          <div class="header-left">
+            <div class="header-logo pe-4"> <h7 class="text-warning mb-0">Maa Vindhyawasi Travels </h7><!--<a class='d-flex' href='index.html'><img class="light-mode" alt="Travila" src="assets/imgs/template/logo.svg"><img class="dark-mode" alt="Travila" src="assets/imgs/template/logo-w.svg"></a>--></div>
+            <div class="header-nav  mx-auto">
+              <nav class="nav-main-menu">
+                <ul class="main-menu">
+                  <li class="mega-li "><a class='active' href='index.html'>Home</a>
+                    <div class="mega-menu">
                     <!----  <div class="mega-menu-inner">
                         <div class="row align-items-center">
                           <div class="col-lg-10">
@@ -203,9 +196,9 @@ Spiritual Tour India
                         </div>
                       </div>
                     </div>-->
-                </li>
-                <li class="mega-li-small "><a href='about.html'>About</a>
-                  <!---- <div class="mega-menu">
+                  </li>
+                  <li class="mega-li-small "><a href='about.html'>About</a>
+                   <!---- <div class="mega-menu">
                       <div class="mega-menu-inner mega-menu-inner-small">
                         <div class="row">
                           <div class="col-lg-6">
@@ -230,9 +223,9 @@ Spiritual Tour India
                         </div>
                       </div>
                     </div>-->
-                </li>
-                <li class="mega-li-small has-children"><a href="#">Destinations</a>
-                  <!--<div class="mega-menu">
+                  </li>
+                <!----  <li class="mega-li-small has-children"><a href="#">Destinations</a>
+                   <div class="mega-menu">
                       <div class="mega-menu-inner mega-menu-inner-small mega-menu-inner-destinations">
                         <h6 class="text-lg-bold neutral-1000">Destinations</h6>
                         <ul class="sub-menu">
@@ -244,9 +237,9 @@ Spiritual Tour India
                           <li><a href='destination-6.html'>Destinations Details 03</a></li>
                         </ul>
                       </div>
-                    </div>-->
-                </li>
-                <!--<li class="has-children"><a href="#">Activities</a>
+                    </div>
+                  </li>-->
+                  <!--<li class="has-children"><a href="#">Activities</a>
                     <ul class="sub-menu"> 
                       <li> <a href='activities.html'>Activities List 01</a></li>
                       <li> <a href='activities-2.html'>Activities List 02</a></li>
@@ -259,11 +252,16 @@ Spiritual Tour India
                       <li> <a href='activities-detail-4.html'>Activities Single 04</a></li>
                     </ul>
                   </li>-->
-                <li class="has-children"><a href="#">Tour Package</a>
-                  <ul class="sub-menu">
-                    <li><a href='View All Packages.html'>View All Packages</a></li>
-                  </ul>
-                  <!--<ul class="sub-menu">
+  <li class="has-children"><a href='View All Packages.html'>Tour Package</a>
+                   <ul class="sub-menu">
+                     <li><a href='tour-detail.html'>Best 2 Nights 3 Days Kathmandu Tour</a></li> 
+                       <li><a href='tour-detail2.html'>Best 2 Nights 3 Days Pokhara Tour</a></li> 
+                      <li><a href='tour-detail5.html'>Best 7 Nights 6 Days Nepal Tour</a></li> 
+                       <li><a href='tour-detail6.html'>Best 7 Nights 8 Days India Tour</a></li> 
+                       
+      <li><a href='View All Packages.html'>View more</a></li> 
+                   </ul>
+                    <!--<ul class="sub-menu">
                       <li><a href='hotel-grid.html'>Hotel List 01</a></li>
                       <li><a href='hotel-grid-2.html'>Hotel List 02</a></li>
                       <li><a href='hotel-grid-3.html'>Hotel List 03</a></li>
@@ -273,9 +271,9 @@ Spiritual Tour India
                       <li><a href='hotel-detail.html'>Hotel Details 01</a></li>
                       <li><a href='hotel-detail-2.html'>Hotel Details 02</a></li>
                     </ul>-->
-                </li>
-                <li class="mega-li-small"><a href="local-taxi.html">Local Taxi</a>
-                  <!--<div class="mega-menu">
+                  </li>
+                  <li class="mega-li-small"><a href="local-taxi.html">Local Taxi</a>
+                    <!--<div class="mega-menu">
                       <div class="mega-menu-inner mega-menu-inner-small">
                         <div class="row">
                           <div class="col-lg-6">
@@ -300,7 +298,7 @@ Spiritual Tour India
                         </div>
                       </div>
                     </div>-->
-                </li>
+                  </li>
                 <!----  <li class="has-children"><a href='tickets.html'>Tickets</a>
                     <ul class="sub-menu">
                       <li><a href='tickets.html'>Flight tickets</a></li>
@@ -308,7 +306,7 @@ Spiritual Tour India
                       <li><a href='book-ticket.html'>Ticket details</a></li>
                     </ul>
                   </li>-->
-                <!--<li class="has-children"><a href="javascript:void(0)">Pages</a>
+                  <!--<li class="has-children"><a href="javascript:void(0)">Pages</a>
                     <ul class="sub-menu">
                       <li><a href='about.html'>About</a></li>
                       <li><a href='contact.html'>Contact</a></li>
@@ -321,7 +319,7 @@ Spiritual Tour India
                       <li><a href='404.html'>404</a></li>
                     </ul>
                   </li>-->
-                <!---- <li class="has-children"><a href='blog-grid.html'>Blog</a>
+                 <!---- <li class="has-children"><a href='blog-grid.html'>Blog</a>
                     <ul class="sub-menu">
                       <li><a href='blog-grid.html'>Grid Full</a></li>
                       <li><a href='blog-grid-2.html'>Grid Sidebar</a></li>
@@ -330,13 +328,13 @@ Spiritual Tour India
                       <li><a href='blog-detail-2.html'>Blog Details 2</a></li>
                     </ul>
                   </li>-->
-                <li><a href='contact.html'>Contact</a></li>
-              </ul>
-            </nav>
+                  <li><a href='contact.html'>Contact</a></li>
+                </ul>
+              </nav>
+            </div>
           </div>
-        </div>
-        <div>
-          <!--<div class="d-none d-xxl-inline-block box-dropdown-cart align-middle mr-15"><span class="text-14-medium icon-list icon-account icon-lang"><span class="text-14-medium arrow-down">EN</span></span>
+          <div>
+            <!--<div class="d-none d-xxl-inline-block box-dropdown-cart align-middle mr-15"><span class="text-14-medium icon-list icon-account icon-lang"><span class="text-14-medium arrow-down">EN</span></span>
               <div class="dropdown-account">
                 <ul>
                   <li><a class="text-sm-medium" href="#">English</a></li>
@@ -345,7 +343,7 @@ Spiritual Tour India
                 </ul>
               </div>
             </div>-->
-          <!--<div class="d-none d-xxl-inline-block box-dropdown-cart align-middle mr-15"><span class="text-14-medium icon-list icon-cart"><span class="text-14-medium arrow-down">USD</span></span>
+           <!--<div class="d-none d-xxl-inline-block box-dropdown-cart align-middle mr-15"><span class="text-14-medium icon-list icon-cart"><span class="text-14-medium arrow-down">USD</span></span>
               <div class="dropdown-cart">
                 <ul>
                   <li><a class="text-sm-medium" href="#">USD</a></li>
@@ -354,22 +352,19 @@ Spiritual Tour India
                 </ul>
               </div>
             </div>-->
-          <!--<div class="d-none d-xxl-inline-block align-middle mr-15"><a class="btn btn-mode change-mode mr-15" href="#" data-bs-theme-value="dark"> <img class="light-mode" src="assets/imgs/template/icons/light.svg" alt="Travila"><img class="dark-mode" src="assets/imgs/template/icons/light-w.svg" alt="Travila"></a></div>-->
-          <!--<div class="burger-icon-2 burger-icon-white"><img src="assets/imgs/template/icons/menu.svg" alt="Travila"></div>-->
-          <div class="burger-icon burger-icon-white"><span class="burger-icon-top"></span><span
-              class="burger-icon-mid"></span><span class="burger-icon-bottom"></span></div>
+           <!--<div class="d-none d-xxl-inline-block align-middle mr-15"><a class="btn btn-mode change-mode mr-15" href="#" data-bs-theme-value="dark"> <img class="light-mode" src="assets/imgs/template/icons/light.svg" alt="Travila"><img class="dark-mode" src="assets/imgs/template/icons/light-w.svg" alt="Travila"></a></div>-->
+           <!--<div class="burger-icon-2 burger-icon-white"><img src="assets/imgs/template/icons/menu.svg" alt="Travila"></div>-->
+            <div class="burger-icon burger-icon-white"><span class="burger-icon-top"></span><span class="burger-icon-mid"></span><span class="burger-icon-bottom"></span></div>
+          </div>
         </div>
       </div>
-    </div>
-  </header>
-  <div class="mobile-header-active mobile-header-wrapper-style perfect-scrollbar button-bg-2">
-    <div class="mobile-header-wrapper-inner">
-      <div class="mobile-header-logo"> <a class='d-flex' href='index.html'><img class="light-mode" alt="Travila"
-            src="assets/imgs/template/logo.svg"><img class="dark-mode" alt="Travila"
-            src="assets/imgs/template/logo-w.svg"></a>
-        <div class="burger-icon burger-icon-white"></div>
-      </div>
-      <!--<div class="mobile-header-top">
+    </header>
+    <div class="mobile-header-active mobile-header-wrapper-style perfect-scrollbar button-bg-2">
+      <div class="mobile-header-wrapper-inner">
+        <div class="mobile-header-logo"> <a class='d-flex' href='index.html'><img class="light-mode" alt="Travila" src="assets/imgs/template/logo.svg"><img class="dark-mode" alt="Travila" src="assets/imgs/template/logo-w.svg"></a>
+          <div class="burger-icon burger-icon-white"></div>
+        </div>
+        <!--<div class="mobile-header-top">
           <div class="box-author-profile"> 
             <div class="card-author"> 
               <div class="card-image"> <img src="assets/imgs/page/homepage1/author2.png" alt="Travila"></div>
@@ -380,13 +375,13 @@ Spiritual Tour India
             </div><a class="btn btn-black" href="#">Logout</a>
           </div>
         </div>-->
-      <div class="mobile-header-content-area">
-        <div class="perfect-scroll">
-          <div class="mobile-menu-wrap mobile-header-border">
-            <nav>
-              <ul class="mobile-menu font-heading">
-                <li><a class='active' href='index.html'>Home</a>
-                  <!--<ul class="sub-menu">
+        <div class="mobile-header-content-area">
+          <div class="perfect-scroll">
+            <div class="mobile-menu-wrap mobile-header-border">
+              <nav>
+                <ul class="mobile-menu font-heading">
+                  <li><a class='active' href='index.html'>Home</a>
+                    <!--<ul class="sub-menu">
                       <li><a href='index.html'>Home 1 - All services</a></li>
                       <li><a href='index-2.html'>Home 2 - All services</a></li>
                       <li><a href='index-3.html'>Home 3 - All services</a></li>
@@ -399,9 +394,9 @@ Spiritual Tour India
                       <li><a href='index-10.html'>Home 10 - Rental Property</a></li>
                       <li><a href="index-11.html">Home 11 - Tickets</a></li>
                     </ul>-->
-                </li>
-                <li><a href='about.html'>About</a>
-                  <!--<ul class="sub-menu">
+                  </li>
+                  <li><a href='about.html'>About</a>
+                    <!--<ul class="sub-menu">
                       <li><a href='tour-grid-3.html'>Tours List - Top Fillter</a></li>
                       <li><a href='tour-grid.html'>Tours List - Sidebar Left Fillter</a></li>
                       <li><a href='tour-grid-2.html'>Tours List - Sidebar Right Fillter</a></li>
@@ -412,22 +407,27 @@ Spiritual Tour India
                       <li><a href='tour-detail-3.html'>Tour Single 03 - Video</a></li>
                       <li><a href='tour-detail-4.html'>Tour Single 04 - Image</a></li>
                     </ul>-->
-                </li>
-                <li class="has-children"><a href='#'>Destinations</a>
-                  <!--<ul class="sub-menu">
+                  </li>
+                 <!---- <li class="has-children"><a href='#'>Destinations</a>
+                    -<ul class="sub-menu">
                       <li><a href='destination.html'>Destinations list 1</a></li>
                       <li><a href='destination-2.html'>Destinations list 2</a></li>
                       <li><a href='destination-3.html'>Destinations list 3</a></li>
                       <li><a href='destination-4.html'>Destinations Details 01</a></li>
                       <li><a href='destination-5.html'>Destinations Details 02</a></li>
                       <li><a href='destination-6.html'>Destinations Details 03</a></li>
-                    </ul>-->
-                </li>
-                <li class="has-children"><a href='#'>Tour Package</a>
-                  <ul class="sub-menu">
-                    <li><a href='View All Packages.html'>View All Packages</a></li>
-                  </ul>
-                  <!--<ul class="sub-menu">
+                    </ul>
+                  </li>-->
+                  <li class="has-children"><a href='View All Packages.html'>Tour Package</a>
+                                   <ul class="sub-menu">
+                                     <li><a href='tour-detail.html'>Best 2 Nights 3 Days Kathmandu Tour</a></li> 
+                                       <li><a href='tour-detail2.html'>Best 2 Nights 3 Days Pokhara Tour</a></li> 
+                                      <li><a href='tour-detail5.html'>Best 7 Nights 6 Days Nepal Tour</a></li> 
+                                       <li><a href='tour-detail6.html'>Best 7 Nights 8 Days India Tour</a></li> 
+                                       
+                      <li><a href='View All Packages.html'>View more</a></li> 
+                                   </ul>
+                    <!--<ul class="sub-menu">
                       <li><a href='activities.html'>Activities List - Top Fillter</a></li>
                       <li><a href='activities-2.html'>Activities List - Sidebar Left Fillter</a></li>
                       <li><a href='activities-3.html'>Activities List - Sidebar Right Fillter</a></li>
@@ -438,9 +438,9 @@ Spiritual Tour India
                       <li><a href='activities-detail-3.html'>Activities Single 03</a></li>
                       <li><a href='activities-detail-4.html'>Activities Single 04</a></li>
                     </ul>-->
-                </li>
-                <li> <a href='local-taxi.html'>Local Taxi</a>
-                  <!--<ul class="sub-menu">
+                  </li>
+                  <li> <a href='local-taxi.html'>Local Taxi</a>
+                    <!--<ul class="sub-menu">
                       <li><a href='hotel-grid.html'>Hotel List 01</a></li>
                       <li><a href='hotel-grid-2.html'>Hotel List 02</a></li>
                       <li><a href='hotel-grid-3.html'>Hotel List 03</a></li>
@@ -450,8 +450,8 @@ Spiritual Tour India
                       <li><a href='hotel-detail.html'>Hotel Details 01</a></li>
                       <li><a href='hotel-detail-2.html'>Hotel Details 02</a></li>
                     </ul>-->
-                </li>
-                <!--<li> <a href=''>Contact</a>
+                  </li>
+                  <!--<li> <a href=''>Contact</a>
                     <ul class="sub-menu">
                       <li><a href='rental-car.html'>Car Grid</a></li>
                       <li><a href='rental-car-2.html'>Car list</a></li>
@@ -461,15 +461,15 @@ Spiritual Tour India
                       <li><a href="rental-proprty-3.html">Property List</a></li>
                       <li><a href='rental-detail.html'>Property Details</a></li>
                     </ul>-->
-                </li>
-                <!--<li class="has-children"> <a href='tickets.html'>Tickets</a>
+                  </li>
+                  <!--<li class="has-children"> <a href='tickets.html'>Tickets</a>
                     <ul class="sub-menu">
                       <li><a href='tickets.html'>Flight tickets</a></li>
                       <li><a href='tickets-2.html'>Train tickets</a></li>
                       <li><a href='book-ticket.html'>Ticket details</a></li>
                     </ul>
                   </li>-->
-                <!--<li class="has-children"> <a href="javascript:void(0)">Pages</a>
+                  <!--<li class="has-children"> <a href="javascript:void(0)">Pages</a>
                     <ul class="sub-menu">
                       <li><a href='about.html'>About</a></li>
                       <li><a href='contact.html'>Contact</a></li>
@@ -482,7 +482,7 @@ Spiritual Tour India
                       <li><a href='404.html'>404</a></li>
                     </ul>
                   </li>-->
-                <!--<li class="has-children"> <a href='blog-grid.html'>Blog</a>
+                  <!--<li class="has-children"> <a href='blog-grid.html'>Blog</a>
                     <ul class="sub-menu">
                       <li><a href='blog-grid.html'>Grid Full</a></li>
                       <li><a href='blog-grid-2.html'>Grid Sidebar</a></li>
@@ -491,15 +491,15 @@ Spiritual Tour India
                       <li><a href='blog-detail-2.html'>Blog Details 2</a></li>
                     </ul>
                   </li>-->
-                <li><a href='contact.html'>Contact</a></li>
-              </ul>
-            </nav>
+                  <li><a href='contact.html'>Contact</a></li>
+                </ul>
+              </nav>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <!--<div class="sidebar-canvas-wrapper perfect-scrollbar button-bg-2">
+    <!--<div class="sidebar-canvas-wrapper perfect-scrollbar button-bg-2">
       <div class="sidebar-canvas-container"> 
         <div class="sidebar-canvas-head">
           <div class="sidebar-canvas-logo"> <a class='d-flex' href='index.html'><img class="light-mode" alt="Travila" src="assets/imgs/template/logo.svg"><img class="dark-mode" alt="Travila" src="assets/imgs/template/logo-w.svg"></a></div>
@@ -655,7 +655,7 @@ Spiritual Tour India
         </div>
       </div>
     </div>-->
-  <main class="main">
+      <main class="main">
     <section class="box-section block-banner-tourlist" style="background-image:url(assets/imgs/pokhara\ home.jpg)">
       <div class="container">
         <div class="text-center">
@@ -762,7 +762,7 @@ Spiritual Tour India
               <div class="row">
                 <div class="col-xl-4 col-lg-6 col-md-6">
   <div class="card-journey-small background-card">
-                    <div class="card-image"> <img src="assets/imgs/page/tour/tour.png" alt="Travila">
+                    <div class="card-image">  <a href="tour-detail.html"><img src="assets/imgs/page/tour/tour.png" alt="img"></a>
                     </div>
                     <div class="card-info background-card">
                       <div class="card-rating">
@@ -791,7 +791,7 @@ Spiritual Tour India
                 </div>
                 <div class="col-xl-4 col-lg-6 col-md-6">
   <div class="card-journey-small background-card">
-                    <div class="card-image"> <img src="assets/imgs/page/tour/tour2.png" alt="Travila">
+                    <div class="card-image"><a href="tour-detail2.html"> <img src="assets/imgs/page/tour/tour2.png" alt="img"></a>
                     </div>
                     <div class="card-info background-card">
                       <div class="card-rating">
@@ -819,7 +819,7 @@ Spiritual Tour India
                 </div>
                 <div class="col-xl-4 col-lg-6 col-md-6">
   <div class="card-journey-small background-card">
-                    <div class="card-image"> <img src="assets/imgs/page/tour/tour3.png" alt="Travila">
+                    <div class="card-image"><a href="tour-detail3.html"> <img src="assets/imgs/page/tour/tour3.png" alt="Travila"></a>
                     </div>
                     <div class="card-info background-card">
                       <div class="card-rating">
@@ -847,7 +847,7 @@ Spiritual Tour India
                 </div>
                 <div class="col-xl-4 col-lg-6 col-md-6">
   <div class="card-journey-small background-card">
-                    <div class="card-image"> <img src="assets/imgs/page/tour/tour4.png" alt="Travila">
+                    <div class="card-image"><a href="tour-detail4.html"> <img src="assets/imgs/page/tour/tour4.png" alt="Travila"></a>
                     </div>
                     <div class="card-info background-card">
                       <div class="card-rating">
@@ -874,7 +874,7 @@ Spiritual Tour India
                   </div>                </div>
                 <div class="col-xl-4 col-lg-6 col-md-6">
   <div class="card-journey-small background-card">
-                    <div class="card-image"> <img src="assets/imgs/page/tour/tour5.png" alt="Travila">
+                    <div class="card-image"> <a href="tour-detail5.html"><img src="assets/imgs/page/tour/tour5.png" alt="Travila"></a>
                     </div>
                     <div class="card-info background-card">
                       <div class="card-rating">
@@ -902,7 +902,7 @@ Spiritual Tour India
                 </div>
                 <div class="col-xl-4 col-lg-6 col-md-6">
   <div class="card-journey-small background-card">
-                    <div class="card-image"> <img src="assets/imgs/page/tour/tour6.png" alt="Travila">
+                    <div class="card-image"><a href="tour-detail6.html"><img src="assets/imgs/page/tour/tour6.png" alt="Travila"></a>
                     </div>
                     <div class="card-info background-card">
                       <div class="card-rating">
@@ -931,7 +931,7 @@ Ayodhya, Kathmandu, Pokhara, Lumbini, Chitrakoot
                 </div>
                 <div class="col-xl-4 col-lg-6 col-md-6">
   <div class="card-journey-small background-card">
-                    <div class="card-image"> <img src="assets/imgs/page/tour/tour7.png" alt="Travila">
+                    <div class="card-image"><a href="tour-detail7.html"> <img src="assets/imgs/page/tour/tour7.png" alt="Travila"></a>
                     </div>
                     <div class="card-info background-card">
                       <div class="card-rating">
@@ -959,7 +959,7 @@ Ayodhya, Kathmandu, Pokhara, Lumbini, Chitrakoot
                 </div>
                 <div class="col-xl-4 col-lg-6 col-md-6">
   <div class="card-journey-small background-card">
-                    <div class="card-image"> <img src="assets/imgs/page/tour/tour8.png" alt="Travila">
+                    <div class="card-image"> <a href="tour-detail8.html"><img src="assets/imgs/page/tour/tour8.png" alt="Travila"></a>
                     </div>
                     <div class="card-info background-card">
                       <div class="card-rating">
@@ -967,7 +967,7 @@ Ayodhya, Kathmandu, Pokhara, Lumbini, Chitrakoot
                         <div class="card-right"> <span class="rating">4.96 <span class="text-sm-medium neutral-500">(672
                               reviews)</span></span></div>
                       </div>
-                      <div class="card-title"> <a class='text-lg-bold neutral-1000' href='tour-detail.html'>Best 7 Days Nepal Tour Package
+                      <div class="card-title"> <a class='text-lg-bold neutral-1000' href='tour-detail8.html'>Best 7 Days Nepal Tour Package
                        </a></div>
                       <div class="card-program">
                         <span class="text-white d-flex align-items-center mb-2  hover-orange">
@@ -978,7 +978,7 @@ Ayodhya, Kathmandu, Pokhara, Lumbini, Chitrakoot
 
 
 <div class="endtime" style="display: flex; align-items: center; gap: 10px;">
-  <a class="btn btn-gray" href="tour-detail.html">Book Now</a>
+  <a class="btn btn-gray" href="tour-detail8.html">Book Now</a>
   <p class="icon-duration text-sm-medium neutral-500" style="margin: 0;">7 days, 6 nights</p>
 </div>
 
@@ -987,7 +987,7 @@ Ayodhya, Kathmandu, Pokhara, Lumbini, Chitrakoot
                   </div>                </div>
                 <div class="col-xl-4 col-lg-6 col-md-6">
   <div class="card-journey-small background-card">
-                    <div class="card-image"> <img src="assets/imgs/page/tour/tour9.png" alt="Travila">
+                    <div class="card-image"><a href="tour-detail9.html"> <img src="assets/imgs/page/tour/tour9.png" alt="Travila"></a>
                     </div>
                     <div class="card-info background-card">
                       <div class="card-rating">
@@ -995,7 +995,7 @@ Ayodhya, Kathmandu, Pokhara, Lumbini, Chitrakoot
                         <div class="card-right"> <span class="rating">4.96 <span class="text-sm-medium neutral-500">(672
                               reviews)</span></span></div>
                       </div>
-                      <div class="card-title"> <a class='text-lg-bold neutral-1000' href='tour-detail8.html'>Best 7 Nights 8 Days Nepal Tour Package
+                      <div class="card-title"> <a class='text-lg-bold neutral-1000' href='tour-detail9.html'>Best 7 Nights 8 Days Nepal Tour Package
                         </a></div>
                       <div class="card-program">
                         <span class="text-white d-flex align-items-center mb-2  hover-orange">
@@ -1006,7 +1006,7 @@ Gorakhpur, Kathmandu, Pokhara, Lumbini, Chitwan
 
 
 <div class="endtime" style="display: flex; align-items: center; gap: 10px;">
-  <a class="btn btn-gray" href="tour-detail8.html">Book Now</a>
+  <a class="btn btn-gray" href="tour-detail9.html">Book Now</a>
   <p class="icon-duration text-sm-medium neutral-500" style="margin: 0;">8 days, 7 nights</p>
 </div>
 
@@ -1014,7 +1014,7 @@ Gorakhpur, Kathmandu, Pokhara, Lumbini, Chitwan
                     </div>
                   </div>
                 </div>
-                <div class="col-xl-4 col-lg-6 col-md-6">
+               <!----<div class="col-xl-4 col-lg-6 col-md-6">
   <div class="card-journey-small background-card">
                     <div class="card-image"> <img src="assets/imgs/page/tour/tour10.png" alt="Travila">
                     </div>
@@ -1042,8 +1042,8 @@ Gorakhpur, Kathmandu, Pokhara, Lumbini, Chitwan
                       </div>
                     </div>
                   </div>
-                </div>
-                <div class="col-xl-4 col-lg-6 col-md-6">
+                </div>-->
+               <!---- <div class="col-xl-4 col-lg-6 col-md-6">
   <div class="card-journey-small background-card">
                     <div class="card-image"> <img src="assets/imgs/page/tour/tour11.png" alt="Travila">
                     </div>
@@ -1071,10 +1071,11 @@ Gorakhpur, Kathmandu, Pokhara, Lumbini, Chitwan
                       </div>
                     </div>
                   </div>
-                </div>
+                </div>-->
+
                 <div class="col-xl-4 col-lg-6 col-md-6">
   <div class="card-journey-small background-card">
-                    <div class="card-image"> <img src="assets/imgs/page/tour/tour12.png" alt="Travila">
+                    <div class="card-image"> <a href="tour-detail10.html"><img src="assets/imgs/page/tour/tour13.png" alt="Travila"></a>
                     </div>
                     <div class="card-info background-card">
                       <div class="card-rating">
@@ -1082,36 +1083,7 @@ Gorakhpur, Kathmandu, Pokhara, Lumbini, Chitwan
                         <div class="card-right"> <span class="rating">4.96 <span class="text-sm-medium neutral-500">(672
                               reviews)</span></span></div>
                       </div>
-                      <div class="card-title"> <a class='text-lg-bold neutral-1000' href='tour-detail.html'>Best 7 Nights 8 Days Nepal Tour Package
-                        </a></div>
-                      <div class="card-program">
-                        <span class="text-white d-flex align-items-center mb-2  hover-orange">
-                          <i class="bi bi-geo-alt-fill me-2"></i>
-                         
-Gorakhpur, Kathmandu, Pokhara, Lumbini, Chitwan
-                        </span>
-
-
-<div class="endtime" style="display: flex; align-items: center; gap: 10px;">
-  <a class="btn btn-gray" href="tour-detail.html">Book Now</a>
-  <p class="icon-duration text-sm-medium neutral-500" style="margin: 0;">8 days, 7 nights</p>
-</div>
-
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-xl-4 col-lg-6 col-md-6">
-  <div class="card-journey-small background-card">
-                    <div class="card-image"> <img src="assets/imgs/page/tour/tour13.png" alt="Travila">
-                    </div>
-                    <div class="card-info background-card">
-                      <div class="card-rating">
-                        <div class="card-left"> </div>
-                        <div class="card-right"> <span class="rating">4.96 <span class="text-sm-medium neutral-500">(672
-                              reviews)</span></span></div>
-                      </div>
-                      <div class="card-title"> <a class='text-lg-bold neutral-1000' href='tour-detail.html'>Best Thailand 5 Night: Bangkok 2 Night | Pattaya 3 Night
+                      <div class="card-title"> <a class='text-lg-bold neutral-1000' href='tour-detail10.html'>Best Thailand 5 Night: Bangkok 2 Night | Pattaya 3 Night
                         </a></div>
                       <div class="card-program">
                         <span class="text-white d-flex align-items-center mb-2  hover-orange">
@@ -1123,7 +1095,7 @@ Bangkok, Pattaya, Thailand
 
 
 <div class="endtime" style="display: flex; align-items: center; gap: 10px;">
-  <a class="btn btn-gray" href="tour-detail.html">Book Now</a>
+  <a class="btn btn-gray" href="tour-detail10.html">Book Now</a>
   <p class="icon-duration text-sm-medium neutral-500" style="margin: 0;">6 days, 5 nights</p>
 </div>
 
@@ -1132,7 +1104,7 @@ Bangkok, Pattaya, Thailand
                   </div>                </div>
                 <div class="col-xl-4 col-lg-6 col-md-6">
   <div class="card-journey-small background-card">
-                    <div class="card-image"> <img src="assets/imgs/page/tour/tour14.png" alt="Travila">
+                    <div class="card-image"> <a href="tour-detail11.html"><img src="assets/imgs/page/tour/tour14.png" alt="Travila"></a>
                     </div>
                     <div class="card-info background-card">
                       <div class="card-rating">
@@ -1140,7 +1112,7 @@ Bangkok, Pattaya, Thailand
                         <div class="card-right"> <span class="rating">4.96 <span class="text-sm-medium neutral-500">(672
                               reviews)</span></span></div>
                       </div>
-                      <div class="card-title"> <a class='text-lg-bold neutral-1000' href='tour-detail.html'>Best 4 Night 5 Days Kashmir Tour Package
+                      <div class="card-title"> <a class='text-lg-bold neutral-1000' href='tour-detail11.html'>Best 4 Night 5 Days Kashmir Tour Package
                         </a></div>
                       <div class="card-program">
                         <span class="text-white d-flex align-items-center mb-2  hover-orange">
@@ -1151,7 +1123,7 @@ Kashmir, Srinagar, Pahalgam
 
 
 <div class="endtime" style="display: flex; align-items: center; gap: 10px;">
-  <a class="btn btn-gray" href="tour-detail.html">Book Now</a>
+  <a class="btn btn-gray" href="tour-detail11.html">Book Now</a>
   <p class="icon-duration text-sm-medium neutral-500" style="margin: 0;">5 days, 5 nights</p>
 </div>
 
@@ -1161,7 +1133,7 @@ Kashmir, Srinagar, Pahalgam
                 </div>
                 <div class="col-xl-4 col-lg-6 col-md-6">
   <div class="card-journey-small background-card">
-                    <div class="card-image"> <img src="assets/imgs/page/tour/tour15.png" alt="Travila">
+                    <div class="card-image"> <a href="tour-detail12.html"><img src="assets/imgs/page/tour/tour15.png" alt="Travila"></a>
                     </div>
                     <div class="card-info background-card">
                       <div class="card-rating">
@@ -1169,7 +1141,7 @@ Kashmir, Srinagar, Pahalgam
                         <div class="card-right"> <span class="rating">4.96 <span class="text-sm-medium neutral-500">(672
                               reviews)</span></span></div>
                       </div>
-                      <div class="card-title"> <a class='text-lg-bold neutral-1000' href='tour-detail.html'>Best 3 Days Gorakhpur To Ayodhya Tour
+                      <div class="card-title"> <a class='text-lg-bold neutral-1000' href='tour-detail12.html'>Best 3 Days Gorakhpur To Ayodhya Tour
                         </a></div>
                       <div class="card-program">
                         <span class="text-white d-flex align-items-center mb-2  hover-orange">
@@ -1180,7 +1152,7 @@ Gorakhpur To Ayodhya
 
 
 <div class="endtime" style="display: flex; align-items: center; gap: 10px;">
-  <a class="btn btn-gray" href="tour-detail.html">Book Now</a>
+  <a class="btn btn-gray" href="tour-detail12.html">Book Now</a>
   <p class="icon-duration text-sm-medium neutral-500" style="margin: 0;">8 days, 7 nights</p>
 </div>
 
