@@ -5433,6 +5433,7 @@ object-fit: cover;
   left: auto;
   z-index: 123;
   border-bottom: 1px solid var(--bs-neutral-200);
+  background-color: #000000;
 }
 .header .container-fluid {
   max-width: 100%;
