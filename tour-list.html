@@ -1445,6 +1445,49 @@
         </div>
       </div>
     </div>-->
+    
+<script>
+  // Set today's date as the minimum
+  const dateInput = document.getElementById("date");
+  const today = new Date().toISOString().split("T")[0];
+  dateInput.setAttribute("min", today);
+
+  // Handle form submission
+  const form = document.getElementById("form");
+  const result = document.getElementById("result");
+
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    result.style.color = "white";
+    result.innerHTML = "Please wait...";
+
+    const formData = new FormData(form);
+
+    try {
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        body: formData
+      });
+
+      const json = await response.json();
+      console.log("Web3Forms response:", json);
+
+      if (json.success) {
+        result.style.color = "lightgreen";
+        result.innerHTML = "Booking successful! Thank you.";
+      } else {
+        result.style.color = "red";
+        result.innerHTML = json.message || "Something went wrong. Please try again.";
+      }
+    } catch (error) {
+      console.error("Fetch error:", error);
+      result.style.color = "red";
+      result.innerHTML = "Network error. Please try again later.";
+    }
+
+    form.reset(); // Always reset the form
+  });
+</script>
 
 
 
