@@ -5438,7 +5438,7 @@ object-fit: cover;
 .header .container-fluid {
   max-width: 100%;
   padding-left: 50px;
-  padding-right: 50px;
+  padding-right: 10px;
 }
 .header .main-header {
   display:-webkit-inline-box;
@@ -5889,7 +5889,7 @@ object-fit: cover;
 }
 
 .perfect-scroll {
-  height: 100vh;
+  height: 50vh;
   width: 100%;
   position: relative;
 }
@@ -5980,7 +5980,7 @@ object-fit: cover;
   top: 0;
   max-width: 380px;
   width: 100%;
-  min-height: 100vh;
+  height: 60vh;
   bottom: 0;
   right: 0;
   visibility: hidden;
@@ -6411,7 +6411,7 @@ object-fit: cover;
   border-radius: 4px;
   cursor: pointer;
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
-  top: 0px;
+  top: 10px;
   right: 0px;
   z-index: 999999;
   display: none;
@@ -13836,9 +13836,10 @@ h2 span {
     margin-top: -90px;
   }
 }
-@media (max-width: 1024.98px) {
+@media (max-width: 775.98px) {
   .burger-icon {
     display: block;
+    top: 35px;
   }
   .custom-class {
     display: block;
@@ -14686,7 +14687,7 @@ h2 span {
     display: none;
   }
   .burger-icon {
-    top: 0px;
+    top: 35px;
   }
   .box-grid-hotels .card-flight .card-facilities .list-tick-green li {
     width: 50%;
