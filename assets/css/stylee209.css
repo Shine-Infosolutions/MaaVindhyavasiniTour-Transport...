@@ -12318,6 +12318,10 @@ a.link-black:hover svg {
   background-image: url(../imgs/page/car/local\ texi.jpg);
 height: 400px;
 
+ background-size: cover;     /* like object-fit: cover */
+  background-position: center;
+  background-repeat: no-repeat;
+
 }
 
 .block-banner-tour-detail {
